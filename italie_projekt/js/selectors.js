@@ -3,7 +3,6 @@ $(function () {
         $("#uvodniobrazek").css({ "background-image": "url('image/uvod_pizza.png')" });
         $(".centered").text("Klikni na obrázek");
         $(".centered").css({ "font-size": "700%" });
-        $("nav").hide(1);
         $("footer").hide(1);
         $("html, body").animate({
             scrollTop: $(document).height(1)
